@@ -1,0 +1,33 @@
+{
+  "name": "api-powered-app-simple-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run htmlhint && npm run prettier:write && npm run eslint",
+    "htmlhint": "npx htmlhint \"**/*.html\"",
+    "prettier:check": "npx prettier --check .",
+    "prettier:write": "npx prettier --write .",
+    "stylelint": "npx stylelint \"**/*.css\"",
+    "eslint": "npx eslint \"**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuefische/api-powered-app-simple-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neuefische/api-powered-app-simple-template/issues"
+  },
+  "homepage": "https://github.com/neuefische/api-powered-app-simple-template#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "htmlhint": "^1.1.4",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.8.3",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^25.0.0"
+  }
+}
